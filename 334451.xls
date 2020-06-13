@@ -1,0 +1,301 @@
+<style type="text/css">
+	
+body
+{
+	font-weight: normal;
+	font-size: 0.7em;
+	word-spacing: normal;
+	text-transform: none;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	letter-spacing: normal;
+	background-color: #ffffff;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+	left: 0px;
+	right: 0px;
+	border: 0px;
+}
+
+/* Panel Historial */
+#PnlHistory
+{    
+    background-color: #ffffff;
+}
+
+.History
+{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+}
+
+.History tr
+{
+    height: 20px;
+}
+
+.History tr.alt
+{
+}
+
+.History td
+{
+    border-left: solid 1px #dddddd;
+    border-right: solid 1px #dddddd;
+}
+/* Panel Historial - Fin */
+
+/* Panel Datos */
+#PnlData
+{
+    background-color: #ffffff;
+}
+
+.MapTable
+{
+    background-color: #3a6ea5;
+    color: #ffffff;
+    border-collapse: collapse;
+    border-width: 0px;
+}
+
+.MapTable tr
+{
+    height: 18px;
+}
+
+.MapTable td
+{
+    border: solid 1px #dddddd;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.Data
+{    
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 0px;
+}
+
+.Data tr
+{
+    cursor: pointer;    
+    height: 22px;
+    text-align: right;
+}
+
+.Data tr.alt
+{
+}
+
+.Data tr.More
+{
+    text-align: left;
+    height: auto;
+    background-color: #f1f1f1;    
+}
+
+.Data tr.More td
+{
+    padding-left: 4px;
+}
+
+.Data td
+{
+    border: solid 1px #dddddd;
+}
+/* Panel Datos - Fin */
+
+/* Cabecera */
+#hd
+{
+    font-size: 8pt;   
+}
+
+#hd .title
+{
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+#hd .subtitle
+{
+    font-size: 8pt;
+    font-family: Verdana;
+}
+
+#hd .fecha
+{
+    font-size: 8pt;
+}
+
+#hd span.value
+{
+    font-size: 10pt;
+}
+
+/* Cabecera - End */
+</style><body>
+	<table id="hd">
+		<tr>
+			<td colspan="9"><div class='title'><img src='../Images/Transparencia.gif' alt='' height='40' /><br /><br />Consulta Amigable (Mensual)</div><div class='subtitle'>Consulta de Ejecución del Gasto</div><br /><div class='fecha'>Fecha de la Consulta: 13-junio-2020</div><br /><b>Año de Ejecución: <span class='value'>2020</span><br />Incluye: <span class='value'>Actividades y Proyectos</span></b></td>
+		</tr>
+	</table>
+	
+                    <table class="History" cellspacing="0" cellpadding="1">
+                
+                    <tr align="right">
+                        
+                        <td align="left" style="font-size: 7pt; width: auto">
+                            TOTAL
+                            
+                            
+                            
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            177,367,859,707
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            188,267,504,439
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            135,378,135,977
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            112,306,336,999
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            66,277,684,078
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            58,476,869,088
+                        </td>
+                        <td align="right" style="width: 100px; white-space: nowrap">
+                            56,733,135,428
+                        </td>
+                        <td align="right" style="width: 50px; white-space: nowrap">&nbsp;31.1</td>
+                    </tr>
+                
+                    </table>
+                <table id="ctl00_CPH1_Mt0" class="MapTable" style="width:100%;">
+		<tr id="ctl00_CPH1_Mt0_Row0">
+			<td id="ctl00_CPH1_Mt0_td1" title="Concepto" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td1&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="cursor:hand;">Nivel de Gobierno</td><td id="ctl00_CPH1_Mt0_td2" title="Presupuesto Institucional de Apertura" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td2&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;white-space:nowrap;cursor:hand;">PIA</td><td id="ctl00_CPH1_Mt0_td3" title="Presupuesto Institucional Modificado" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td3&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;white-space:nowrap;cursor:hand;">PIM</td><td id="ctl00_CPH1_Mt0_td9" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td9&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;cursor:hand;">Certificación</td><td id="ctl00_CPH1_Mt0_td4" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td4&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;cursor:hand;">Compromiso Anual</td><td title="Ejecución de Gastos en las diferentes fases" colspan="3">
+                                Ejecución
+                                 </td><td id="ctl00_CPH1_Mt0_td8" rowspan="2" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td8&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:50px;cursor:hand;">Avance %</td>
+		</tr><tr id="ctl00_CPH1_Mt0_Row1">
+			<td id="ctl00_CPH1_Mt0_td5" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td5&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;cursor:hand;">Atención de Compromiso Mensual</td><td id="ctl00_CPH1_Mt0_td6" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td6&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;white-space:nowrap;cursor:hand;">Devengado</td><td id="ctl00_CPH1_Mt0_td7" onclick="__doPostBack(&#39;ctl00$CPH1$Mt0$td7&#39;,&#39;&#39;)" onmouseover="this.style.backgroundColor = &#39;#D74F2A&#39;;" onmouseout="this.style.backgroundColor = &#39;&#39;;" style="width:100px;white-space:nowrap;cursor:hand;">Girado</td>
+		</tr>
+	</table>
+                            <table class="Data" cellspacing="0" cellpadding="1">
+                        
+                            <tr id="tr0" onclick='kCod="M";tr_clk(0, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left" style="width: auto">
+                                    M: GOBIERNOS LOCALES
+                                    
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    20,879,069,452
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    30,014,291,306
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    17,838,692,145
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    11,037,952,557
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    8,081,725,409
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    6,685,311,396
+                                </td>
+                                <td style="white-space: nowrap; width: 100px">
+                                    6,221,129,915
+                                </td>
+                                <td style="white-space: nowrap; width: 50px">&nbsp;
+                           22.3
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr1" onclick='kCod="R";tr_clk(1, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    R: GOBIERNOS REGIONALES
+                                    
+                                </td>
+                                <td>
+                                    31,906,686,108
+                                </td>
+                                <td>
+                                    37,465,794,603
+                                </td>
+                                <td>
+                                    24,570,177,417
+                                </td>
+                                <td>
+                                    19,852,791,417
+                                </td>
+                                <td>
+                                    12,607,911,800
+                                </td>
+                                <td>
+                                    11,680,738,025
+                                </td>
+                                <td>
+                                    11,107,181,161
+                                </td>
+                                <td>&nbsp;
+                           31.2
+                                </td>
+                            </tr>
+                            
+                        
+                            <tr class="alt" id="tr2" onclick='kCod="E";tr_clk(2, this)'
+                                onmouseover="tr_over(this)" onmouseout="tr_out(this)">
+                                
+                                <td align="left">
+                                    E: GOBIERNO NACIONAL
+                                    
+                                </td>
+                                <td>
+                                    124,582,104,147
+                                </td>
+                                <td>
+                                    120,787,418,530
+                                </td>
+                                <td>
+                                    92,969,266,416
+                                </td>
+                                <td>
+                                    81,415,593,026
+                                </td>
+                                <td>
+                                    45,588,046,868
+                                </td>
+                                <td>
+                                    40,110,819,667
+                                </td>
+                                <td>
+                                    39,404,824,353
+                                </td>
+                                <td>&nbsp;
+                           33.2
+                                </td>
+                            </tr>
+                            
+                        
+                            </table>
+                        
+</body>
